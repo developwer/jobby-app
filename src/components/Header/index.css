@@ -1,0 +1,54 @@
+.BgForHeader {
+  background-color: #272727;
+  padding: 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.logo-container {
+  margin-left: 10px;
+}
+
+.nav-link-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.nav-to-name {
+  color: white;
+  font-weight: bold;
+  font-family: 'roboto';
+  font-size: 23px;
+}
+
+.logout-button {
+  color: white;
+  background-color: #4f46e5;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 200%;
+}
